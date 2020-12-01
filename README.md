@@ -41,3 +41,8 @@ Puedes contactarme sobre dudas por correo: davbetm@gmail.com o Telegram @dbetm
     - Teclear el siguiente comando para lanzar el servidor: `$ php -S localhost:8000 -t public`
 6. Ingresar en el navegador a: [http://localhost:8000/](http://localhost:8000/) para verificar que la aplicación corre sin problemas.
 7. Crear una BD en MySQL o MariaDB con nombre `myapp_db`.
+
+
+## Documentación oficial de Lumen
+
+Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
