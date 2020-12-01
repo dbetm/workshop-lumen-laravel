@@ -5,6 +5,7 @@
 + Tener instalado un proyecto de Laravel/Lumen 8.x.
 
 ## Recursos de ayuda para la instalación de un proyecto
+Puedes contactarme sobre dudas por correo: davbetm@gmail.com o Telegram @dbetm
 ### Windows 10
 
 1. [Descargar e instalar XAMPP](https://www.apachefriends.org/es/index.html).
