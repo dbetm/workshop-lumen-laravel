@@ -18,6 +18,20 @@ class EmpleadoController extends Controller {
     }
 
     public function create(Request $request) {
+      $validator = Validator::make($request->all(), array(
+        'nombre' => 'required|min:3|max:50',
+        'usuario' => 'required|min:3|max:10',
+        'clave' => 'required|min:3|max:10',
+        'idCreador' => 'required|exists:empleados,id'
+      ));
+
+      if($validator->fails()) {
+        return response()->json(array(
+          'status' => 'Bad request',
+          'error' => $validator->errors()
+        ), 400);
+      }
+
       $empleado = Empleado::create($request->all());
 
       return response()->json(array(
